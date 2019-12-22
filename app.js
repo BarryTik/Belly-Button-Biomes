@@ -6,7 +6,7 @@ function init() {
     var dataSelector = d3.select("select");
     console.log(dataSelector);
 
-    d3.json("../../samples.json").then(function(jsonData){
+    d3.json("samples.json").then(function(jsonData){
         dataset = jsonData
         console.log(dataset);
 
